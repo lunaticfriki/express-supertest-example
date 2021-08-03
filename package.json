@@ -1,0 +1,22 @@
+{
+  "name": "exoress-supertest",
+  "version": "1.0.0",
+  "description": "testing apis",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js",
+    "test": "mocha tests/users.test.js --exit"
+  },
+  "author": "lunaticfriki",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mocha": "^9.0.3",
+    "morgan": "^1.10.0",
+    "supertest": "^6.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
